@@ -1,7 +1,7 @@
 # 2D Gladius Rendering with Legacy OpenGL and Qt Creator
 
 This repository contains the code and resources necessary for rendering a simplified 2D representation of a Roman Gladius using legacy OpenGL functions and Qt Creator for the graphical user interface. The Gladius, known for its prominence in the hands of Roman foot soldiers, is rendered here in a two-dimensional profile, showcasing the basic shape and form of this iconic weapon.
-
+ 
 ## Overview
 
 The Roman Gladius is a short sword with a characteristic leaf-shaped blade that served as the primary sidearm of Roman legionaries. Historically, its design is perfect for close combat and was a symbol of Roman martial prowess. This project is a digital homage to the Gladius, designed to provide a fundamental example of how such historical items can be represented in computer graphics.
