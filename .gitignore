@@ -1,1 +1,3 @@
-/Makefile
+Makefile*
+Makefile.Debug
+Makefile.Release

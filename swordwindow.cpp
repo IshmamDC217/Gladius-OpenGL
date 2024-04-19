@@ -3,7 +3,7 @@
 
 swordwindow::swordwindow(QWidget *parent)
     : QWidget(parent)
-    {
+{
     menuBar = new QMenuBar(this);
     actionQuit = new QAction("&Quit", this);
 
@@ -42,8 +42,6 @@ swordwindow::swordwindow(QWidget *parent)
     nVerticesSlider_v4->setMaximum(50);
     nVerticesSlider_v4->setValue(0);
     nVerticesSlider_v4->connect(nVerticesSlider_v4, SIGNAL(valueChanged(int)), cube_widget, SLOT(wax(int)));
-
-
 
     // Slider Rotation
     rVerticesSlider_r1 = new QSlider(Qt::Horizontal);
@@ -93,10 +91,10 @@ swordwindow::swordwindow(QWidget *parent)
     Area->setLayout(layout);
     windowLayout->addWidget(Area, 0, 0);
     windowLayout->addWidget(cube_widget, 0, 1);
-    } // constructor
+} // constructor
 
 swordwindow::~swordwindow()
-    { // destructor
+{ // destructor
     delete nVerticesSlider_h;
     delete nVerticesSlider_v1;
     delete nVerticesSlider_v2;
@@ -110,13 +108,13 @@ swordwindow::~swordwindow()
     delete cube_widget;
     delete windowLayout;
     delete actionQuit;
-//	Delete fileMenu
+    //	Delete fileMenu
     delete menuBar;
-    } // Destructor
+} // Destructor
 
 // Resets the interface elements
 void swordwindow::ResetInterface()
-    { // ResetInterface()
+{ // ResetInterface()
     nVerticesSlider_h->setMinimum(0);
     nVerticesSlider_h->setMaximum(50);
     nVerticesSlider_v1->setMinimum(0);
@@ -135,10 +133,7 @@ void swordwindow::ResetInterface()
     rVerticesSlider_r3->setMinimum(0);
     rVerticesSlider_r3->setMaximum(50);
 
-
     // Now Force Refresh
     cube_widget->update();
     update();
-    } // ResetInterface()
-
-
+} // ResetInterface()
