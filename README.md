@@ -1,4 +1,4 @@
-# 2D Gladius Rendering with Legacy OpenGL and Qt Creator
+# 2D Gladius Rendering with Legacy OpenGL
 
 This repository contains the code and resources necessary for rendering a simplified 2D representation of a Roman Gladius using legacy OpenGL functions and Qt Creator for the graphical user interface. The Gladius, known for its prominence in the hands of Roman foot soldiers, is rendered here in a two-dimensional profile, showcasing the basic shape and form of this iconic weapon.
  
