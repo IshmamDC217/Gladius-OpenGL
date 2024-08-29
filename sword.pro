@@ -20,12 +20,6 @@ HEADERS += \
 FORMS += \
     swordwindow.ui
 
-#DISTFILES += \
-#    textures(1)/Marc_Dekamps.ppm \
-#    textures(1)/Mercator-projection.ppm \
-#    textures(1)/markus.ppm
-
-
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
